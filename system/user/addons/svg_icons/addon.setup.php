@@ -3,7 +3,7 @@
 if (!defined('SVG_ICONS_NAME')) {
     define('SVG_ICONS_NAME', 'SVG Icons');
     define('SVG_ICONS_CLASS_NAME', 'Svg_icons');
-    define('SVG_ICONS_VERSION', '1.0.0');
+    define('SVG_ICONS_VERSION', '1.0.2');
 }
 
 return array(

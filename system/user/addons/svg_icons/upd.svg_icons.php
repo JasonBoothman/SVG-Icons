@@ -35,7 +35,7 @@ class Svg_icons_upd {
 
 	function update($current = '')
 	{
-		if (version_compare($current, '1.0.0', '>='))
+		if (version_compare($current, $this->version, '>='))
 		{
 			return FALSE;
 		}
