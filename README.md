@@ -1,4 +1,4 @@
-# SVG-Icons
+# SVG Icons
 A better way to manage SVGs in your ExpressionEngine Templates.
 
 ![](https://img.shields.io/badge/ExpressionEngine-5-3784B0.svg)
