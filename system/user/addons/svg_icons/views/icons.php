@@ -22,7 +22,7 @@
                             <div class="svg">
                                 <?=$icon['code']?>
                             </div>
-                            <textarea class="tag-data">{exp:rd_svg_icons:icon name="<?= $icon['filename'] ?>" path="<?= $icon_set['label'] ?>"}</textarea>
+                            <textarea class="tag-data">{exp:svg_icons:icon name="<?= $icon['filename'] ?>" path="<?= $icon_set['label'] ?>"}</textarea>
                             <textarea class="code-data"><?=$icon['code']?></textarea>
                             <div class="filename"><?= $icon['filename'] ?></div>
                         </div>
