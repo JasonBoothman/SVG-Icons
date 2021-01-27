@@ -1,0 +1,32 @@
+.svg-icons-panel {
+    margin-bottom: 20px;
+    background-color: var(--ee-panel-bg, #fff);
+    border: 1px solid var(--ee-panel-border, #dfe0ef);
+    border-radius: 6px;
+}
+
+.svg-icons-panel .panel-heading {
+    padding: 20px 25px;
+    position: relative;
+    border-bottom: 1px solid var(--ee-panel-border, #dfe0ef);
+}
+
+.svg-icons-panel .panel-heading .title-bar {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.svg-icons-panel .panel-heading .title-bar .title-bar__title {
+    color: var(--ee-text-primary, #0d0d19);
+    padding-right: 10px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-align: left;
+    flex: 4;
+}
+
+.svg-icons-panel .panel-body {
+    padding: 20px 25px;
+}
