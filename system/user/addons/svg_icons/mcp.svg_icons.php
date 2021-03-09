@@ -8,8 +8,6 @@
  * @license http://www.apache.org/licenses/LICENSE-2.0
  */
 
-use Basee\App;
-
 class Svg_icons_mcp {
 
     public $folder_path;
@@ -20,7 +18,7 @@ class Svg_icons_mcp {
 	{
         $this->folder_path = ee()->config->item('svg_icons_folder');
         $this->config_variable_set = (ee()->config->item('svg_icons_folder')) ? TRUE : FALSE;
-        $this->ee_version = App::majorVersion();
+        $this->ee_version = APP_VER;
 
         $this->includeStyles();
         $this->makeSidebar();
@@ -101,7 +99,7 @@ class Svg_icons_mcp {
 	{
         $cp_style = file_get_contents( PATH_THIRD . '/svg_icons/css/helper.css');
 
-        if ($this->ee_version == 5) {
+        if ($this->ee_version < 6) {
             $cp_style .= file_get_contents( PATH_THIRD . '/svg_icons/css/ee5.css');
         }
 
